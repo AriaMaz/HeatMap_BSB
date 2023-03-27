@@ -1,8 +1,10 @@
 # HeatMap For BSB
 
-Using the SCD30 NDIR CO2, temperature, and humidity sensor to output a carbon dioxide value at some x and y position given by the RPLidar A1M8 LiDAR sensor <br>
+<h3 align="center" >Using the SCD30 NDIR CO2, temperature, and humidity sensor to output a carbon dioxide value at some X and Y position given by the RPLidar A1M8 LiDAR sensor</h3>
 
-Input the following into the terminal to install and update the necessary libraries/installations (Works for Python 3.7.3 on macOS 10.15.7) <br>
+---
+<details>
+<summary><h4>Input the following into the terminal to install and update the necessary libraries/installations (Python 3.7.3 on macOS 10.15.7)</h4></summary>
 pip3 install --upgrade pip <br>
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" <br>
 sudo apt-get install pigpio <br>
