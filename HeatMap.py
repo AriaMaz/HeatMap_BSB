@@ -1,4 +1,4 @@
-#using the SCD30 NDIR CO2, temperature, and humidity sensor to output a carbon dioxide value at some x and y position
+#Using the SCD30 NDIR CO2, temperature, and humidity sensor to output a carbon dioxide value at some x and y position given by the RPLidar A1M8 LiDAR sensor
 
 #Input the following into the terminal to install and update the necessary libraries/installations (Works for Python 3.7.3 on macOS 10.15.7)
 #pip3 install --upgrade pip
