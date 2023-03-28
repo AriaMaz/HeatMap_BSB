@@ -79,7 +79,7 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("Stopping...")
     finally:
-        # Clean up LiDAR resources
+        # Clean LiDAR resources
         lidar.stop()
         lidar.stop_motor()
         lidar.disconnect()
